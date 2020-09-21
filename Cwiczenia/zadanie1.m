@@ -1,0 +1,20 @@
+clear;
+clc;
+x=input("Podaj wymiar macierzy n:");
+A=rand(x);
+B=rand(x);
+disp(A);
+disp(B);
+
+a=inv(A);
+b=B';
+suma=A+B;
+roznica=A-B;
+iloczyn=A*B;
+iloczynprzezliczbe=A*3;
+disp(a);
+disp(b);
+disp(suma);
+disp(roznica);
+disp(iloczyn);
+disp(iloczynprzezliczbe);
